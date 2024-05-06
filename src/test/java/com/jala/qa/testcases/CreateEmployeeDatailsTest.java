@@ -19,7 +19,7 @@ public class CreateEmployeeDatailsTest extends TestBase{
 	
 	public CreateEmployeeDatailsTest() throws IOException {
 		super();
-		
+		 		
 	}
 	
 	@BeforeMethod
@@ -27,19 +27,17 @@ public class CreateEmployeeDatailsTest extends TestBase{
 		Intialization();
 		 loginpage = new LoginPage();
 		  homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
-		   
+		 
+		  
 	}
 	
-	@Test (priority =5, timeOut = 3000)
-	public void VarifyClickOnEmployeeLink() throws InterruptedException {
-		createwemployee.clickOnEmployee();
-		Assert.assertTrue(true);
-	}
-	@Test
+
+	@Test(priority = 1)
 	public void VarifyNewEmployeeDetailsCreation() {
 		createwemployee.createNewEmployeeInfo();
 		Assert.assertTrue(true, "Employee dtails not created");
 	}
+	
 	@AfterMethod (timeOut = 3000)
 	public void tearDown(){
 		

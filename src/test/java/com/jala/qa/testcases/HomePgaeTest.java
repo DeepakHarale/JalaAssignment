@@ -16,6 +16,7 @@ import com.jala.qa.util.TestUtil;
 public class HomePgaeTest extends TestBase {
 	 HomePage  homepage;
 	 LoginPage loginpage;
+	 TestUtil testutil;
 	 
 	public HomePgaeTest() throws IOException {
 		super();
@@ -56,6 +57,13 @@ public class HomePgaeTest extends TestBase {
 	public void VarifyClickOnEmployeeLink() throws InterruptedException, IOException {
 		homepage.clickOnEmployee();
 		Assert.assertTrue(true);
+	}
+		
+	@Test(priority =5)
+	public void clickOnMultiplePageTab() throws InterruptedException, IOException {
+		
+		homepage.ClickonMultipleTab();
+		Assert.assertTrue(true, "Not able to click on Multiple Tab option");
 	}
 
 	

@@ -24,6 +24,31 @@ public class HomePage extends TestBase {
 	WebElement clickonemployee;
 	@FindBy(xpath = "//a[text()=' Create ']")
 	WebElement createemp;
+	@FindBy(xpath = "//*[@id=\"MenusDashboard\"]/li[3]/a")
+	WebElement more;
+	@FindBy(xpath = "//a[text()=' Multiple Tabs']")
+	WebElement mulipletabs;
+	@FindBy(xpath = "//a[text()=' Menu']")
+	WebElement menu;
+	@FindBy(xpath = "//a[text()=' Autocomplete']")
+	WebElement autocomlete;
+	@FindBy(xpath = "//a[text()=' Collapsible Content']")
+	WebElement collapsibleconent;
+	@FindBy(xpath = "//a[text()=' Images']")
+	WebElement images;
+	@FindBy(xpath = "//a[text()=' Slider']")
+	WebElement slider;
+	@FindBy(xpath = "//a[text()=' Tooltips']")
+	WebElement tooltips;
+	@FindBy(xpath = "//a[text()=' Popups']")
+	WebElement popups;
+	@FindBy(xpath = "//a[text()=' Links']")
+	WebElement links;
+	@FindBy(xpath = "//a[text()=' CSS Properties']]")
+	WebElement cssproperties;
+	@FindBy(xpath = "//a[text()=' iFrames']")
+	WebElement iframe;
+	
 	
 	public HomePage() throws IOException {
 		PageFactory.initElements(driver, this);
@@ -59,5 +84,22 @@ public class HomePage extends TestBase {
 		return new CreateEmployeePage();
 	}
 
+	
+	
+	public MultipleTabsPage ClickonMultipleTab() throws IOException {
+		more.click();
+		mulipletabs.click();
+		return new MultipleTabsPage();
+			}
+	
+	public ManuPage clickOnmenu() {
+		menu.click();
+		return new ManuPage();
+	}
+	
+	public void autoComplte() {
+		autocomlete.click();
+	}
+	
 	
 }
