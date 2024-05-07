@@ -33,9 +33,9 @@ public class CreateEmployeePage extends TestBase {
 
 	public void clickOnEmployee() throws InterruptedException {
 		clickonemployee.click();
-		System.out.println("Cliked on Employee Manue");
+		Thread.sleep(5000);
 		createemp.click();
-		System.out.println("Clicked on Create Page");
+		Thread.sleep(3000);
 		
 	}
 	
@@ -65,7 +65,7 @@ public void createNewEmployeeInfo() {
 		select.selectByIndex(5);
 		Skills.isSelected();
 		Save.click();
-System.out.println("Successfully added info");
+
 	}
 
 }

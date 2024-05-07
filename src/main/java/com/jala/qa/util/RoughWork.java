@@ -8,6 +8,7 @@ import com.jala.qa.base.TestBase;
 import com.jala.qa.pages.CreateEmployeePage;
 import com.jala.qa.pages.HomePage;
 import com.jala.qa.pages.LoginPage;
+import com.jala.qa.pages.MultipleTabsPage;
 
 public class RoughWork extends TestBase {
 
@@ -21,11 +22,11 @@ public class RoughWork extends TestBase {
 	static HomePage  homepage;
 	 LoginPage log;
 	 static CreateEmployeePage employee;
-	
-
+	 static TestUtil testutil;
+	 static MultipleTabsPage multitab;
 	public static void main(String[] args) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
-TestBase test = new TestBase();
+		TestBase test = new TestBase();
 		Intialization();
 		LoginPage log = new LoginPage();
 		homepage = log.login(prop.getProperty("username"), prop.getProperty("password"));
@@ -39,12 +40,19 @@ TestBase test = new TestBase();
 		 
 		 employee.createNewEmployeeInfo();
 		 System.out.println("New Employee info saved successfully");
+		 Thread.sleep(2000);
 		 
-		 
-		 
-		 
-		
-		
+		  
+		  
+		  homepage.navigateToHomePage();
+		  Thread.sleep(2000);
+		  homepage.clickOnMoreTab();
+		  Thread.sleep(2000);
+		  homepage.ClickonMultipleTab();
+		  Thread.sleep(2000);
+		   multitab = new MultipleTabsPage();
+		   multitab.getTitleofMultiplePage();
+		  
 	}
 	
 	

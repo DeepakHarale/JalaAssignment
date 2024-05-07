@@ -1,60 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[click on employee tab working successfully]]>
+    </line>
+    <line>
+      <![CDATA[click on More tab working successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee info successfully saved]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-05-07T09:05:45Z" name="Default suite" finished-at="2024-05-07T09:05:56Z" duration-ms="11722">
+  <suite started-at="2024-05-07T11:14:04Z" name="Default suite" finished-at="2024-05-07T11:14:23Z" duration-ms="19760">
     <groups>
     </groups>
-    <test started-at="2024-05-07T09:05:45Z" name="Default test" finished-at="2024-05-07T09:05:56Z" duration-ms="11722">
-      <class name="com.jala.qa.testcases.MultilpleTabsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@327bcebd]" started-at="2024-05-07T14:35:45Z" name="setUp" finished-at="2024-05-07T14:35:56Z" duration-ms="11410" status="PASS">
+    <test started-at="2024-05-07T11:14:04Z" name="Default test" finished-at="2024-05-07T11:14:23Z" duration-ms="19760">
+      <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@327bcebd]" started-at="2024-05-07T16:44:04Z" name="setUp" finished-at="2024-05-07T16:44:11Z" duration-ms="7521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getTitleOfMultileTabPage()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@327bcebd]" started-at="2024-05-07T14:35:56Z" name="getTitleOfMultileTabPage" finished-at="2024-05-07T14:35:56Z" duration-ms="10" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "com.jala.qa.pages.MultipleTabsPage.getTitleofMultiplePage()" because "this.multpipletab" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.jala.qa.pages.MultipleTabsPage.getTitleofMultiplePage()" because "this.multpipletab" is null
-	at com.jala.qa.testcases.MultilpleTabsTest.getTitleOfMultileTabPage(MultilpleTabsTest.java:37)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="VarifyNewEmployeeDetailsCreation()[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@327bcebd]" started-at="2024-05-07T16:44:11Z" name="VarifyNewEmployeeDetailsCreation" finished-at="2024-05-07T16:44:23Z" duration-ms="11953" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[click on employee tab working successfully]]>
+            </line>
+            <line>
+              <![CDATA[click on More tab working successfully]]>
+            </line>
+            <line>
+              <![CDATA[Employee info successfully saved]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- getTitleOfMultileTabPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@327bcebd]" started-at="2024-05-07T14:35:56Z" name="tearDown" finished-at="2024-05-07T14:35:56Z" duration-ms="279" status="PASS">
+        </test-method> <!-- VarifyNewEmployeeDetailsCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@327bcebd]" started-at="2024-05-07T16:44:23Z" name="tearDown" finished-at="2024-05-07T16:44:23Z" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.jala.qa.testcases.MultilpleTabsTest -->
+      </class> <!-- com.jala.qa.testcases.CreateEmployeeDatailsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

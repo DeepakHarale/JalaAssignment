@@ -49,6 +49,9 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//a[text()=' iFrames']")
 	WebElement iframe;
 	
+	@FindBy(xpath = "//a[text()=' Home ']")
+	WebElement home;
+	
 	
 	public HomePage() throws IOException {
 		PageFactory.initElements(driver, this);
@@ -75,6 +78,14 @@ public class HomePage extends TestBase {
 		 
 	}
 	
+	public void navigateToHomePage() {
+		home.click();
+	}
+	
+	public void clickOnMoreTab() {
+		more.click();
+	}
+	
 	public CreateEmployeePage clickOnEmployee() throws InterruptedException, IOException {
 		clickonemployee.click();
 		System.out.println("Cliked on Employee Manue");
@@ -87,7 +98,7 @@ public class HomePage extends TestBase {
 	
 	
 	public MultipleTabsPage ClickonMultipleTab() throws IOException {
-		more.click();
+		
 		mulipletabs.click();
 		return new MultipleTabsPage();
 			}
