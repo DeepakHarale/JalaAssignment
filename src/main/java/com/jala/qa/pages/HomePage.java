@@ -92,7 +92,7 @@ public class HomePage extends TestBase {
 		return new MultipleTabsPage();
 			}
 	
-	public ManuPage clickOnmenu() {
+	public ManuPage clickOnmenu() throws IOException {
 		menu.click();
 		return new ManuPage();
 	}

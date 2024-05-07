@@ -1,5 +1,26 @@
 package com.jala.qa.pages;
 
-public class AutocompletePage {
+import java.io.IOException;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.jala.qa.base.TestBase;
+
+public class AutocompletePage extends TestBase {
+
+	@FindBy(name = "txtSingleAutoComplete")
+	WebElement textsinglevalue;
+	
+	@FindBy(xpath = "//a[text()='Multiple Values']")
+	WebElement tab2;
+	
+	@FindBy(name = "txtMultipleAutoComplete")
+	WebElement textmulticomplte;
+	public AutocompletePage() throws IOException {
+		PageFactory.initElements(driver, this);
+		}
+	
 
 }
