@@ -1,39 +1,279 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[click on employee tab working successfully]]>
+      <![CDATA[click on employee tab and more tab working successfully]]>
     </line>
     <line>
-      <![CDATA[click on More tab working successfully]]>
+      <![CDATA[Employee info successfully saved]]>
+    </line>
+    <line>
+      <![CDATA[click on employee tab and more tab working successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee info successfully saved]]>
+    </line>
+    <line>
+      <![CDATA[click on employee tab and more tab working successfully]]>
+    </line>
+    <line>
+      <![CDATA[click on employee tab and more tab working successfully]]>
     </line>
     <line>
       <![CDATA[Employee info successfully saved]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-07T11:14:04Z" name="Default suite" finished-at="2024-05-07T11:14:23Z" duration-ms="19760">
+  <suite started-at="2024-05-08T06:59:54Z" name="Default suite" finished-at="2024-05-08T07:01:15Z" duration-ms="81115">
     <groups>
     </groups>
-    <test started-at="2024-05-07T11:14:04Z" name="Default test" finished-at="2024-05-07T11:14:23Z" duration-ms="19760">
+    <test started-at="2024-05-08T06:59:54Z" name="Default test" finished-at="2024-05-08T07:01:15Z" duration-ms="81115">
       <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@327bcebd]" started-at="2024-05-07T16:44:04Z" name="setUp" finished-at="2024-05-07T16:44:11Z" duration-ms="7521" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:29:56Z" name="setUp" finished-at="2024-05-08T12:30:02Z" duration-ms="6346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VarifyNewEmployeeDetailsCreation()[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@327bcebd]" started-at="2024-05-07T16:44:11Z" name="VarifyNewEmployeeDetailsCreation" finished-at="2024-05-07T16:44:23Z" duration-ms="11953" status="PASS">
+        <test-method signature="VarifyNewEmployeeDetailsCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:02Z" name="VarifyNewEmployeeDetailsCreation" data-provider="testData" finished-at="2024-05-08T12:30:14Z" duration-ms="12012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hema]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hema@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7.865434324E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[noida]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[click on employee tab working successfully]]>
-            </line>
-            <line>
-              <![CDATA[click on More tab working successfully]]>
+              <![CDATA[click on employee tab and more tab working successfully]]>
             </line>
             <line>
               <![CDATA[Employee info successfully saved]]>
             </line>
           </reporter-output>
         </test-method> <!-- VarifyNewEmployeeDetailsCreation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@327bcebd]" started-at="2024-05-07T16:44:23Z" name="tearDown" finished-at="2024-05-07T16:44:23Z" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:14Z" name="tearDown" finished-at="2024-05-08T12:30:16Z" duration-ms="1205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:16Z" name="setUp" finished-at="2024-05-08T12:30:21Z" duration-ms="5467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VarifyNewEmployeeDetailsCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:21Z" name="VarifyNewEmployeeDetailsCreation" data-provider="testData" finished-at="2024-05-08T12:30:35Z" duration-ms="14066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raghav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kuar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raghav@gmail.con]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7.653402912E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[punjab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[click on employee tab and more tab working successfully]]>
+            </line>
+            <line>
+              <![CDATA[Employee info successfully saved]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VarifyNewEmployeeDetailsCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:35Z" name="tearDown" finished-at="2024-05-08T12:30:35Z" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:35Z" name="setUp" finished-at="2024-05-08T12:30:43Z" duration-ms="7225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VarifyNewEmployeeDetailsCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:43Z" name="VarifyNewEmployeeDetailsCreation" data-provider="testData" finished-at="2024-05-08T12:30:56Z" duration-ms="12953" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nutan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jha]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nutan@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.876543234E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[lahor]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button type="button" class="btn btn-success m-r-xs" onclick="return saveEmployee();">...</button> is not clickable at point (1131, 516). Other element would receive the click: <div id="divLoader" class="loader" style="z-index: 9999; display: block;">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c8e69fcc33ce8035860652f9845da08, clickElement {id=f.192EDBEF7DE9B21E381C685160D2F87F.d.146535CD7EA81D966AD06FCB93417EC7.e.1799}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51047}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51047/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8c8e69fcc33ce8035860652f9845da08)] -> xpath: //button[text()='Save']]
+Session ID: 8c8e69fcc33ce8035860652f9845da08]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="button" class="btn btn-success m-r-xs" onclick="return saveEmployee();">...</button> is not clickable at point (1131, 516). Other element would receive the click: <div id="divLoader" class="loader" style="z-index: 9999; display: block;">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8c8e69fcc33ce8035860652f9845da08, clickElement {id=f.192EDBEF7DE9B21E381C685160D2F87F.d.146535CD7EA81D966AD06FCB93417EC7.e.1799}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51047}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51047/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8c8e69fcc33ce8035860652f9845da08)] -> xpath: //button[text()='Save']]
+Session ID: 8c8e69fcc33ce8035860652f9845da08
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.click(Unknown Source)
+	at com.jala.qa.pages.CreateEmployeePage.createNewEmployeeInfo(CreateEmployeePage.java:54)
+	at com.jala.qa.testcases.CreateEmployeeDatailsTest.VarifyNewEmployeeDetailsCreation(CreateEmployeeDatailsTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[click on employee tab and more tab working successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VarifyNewEmployeeDetailsCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:56Z" name="tearDown" finished-at="2024-05-08T12:30:56Z" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:30:56Z" name="setUp" finished-at="2024-05-08T12:31:02Z" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VarifyNewEmployeeDetailsCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:31:02Z" name="VarifyNewEmployeeDetailsCreation" data-provider="testData" finished-at="2024-05-08T12:31:15Z" duration-ms="13230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[roky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[roky@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.745673423E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ludhiyana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[click on employee tab and more tab working successfully]]>
+            </line>
+            <line>
+              <![CDATA[Employee info successfully saved]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VarifyNewEmployeeDetailsCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@338c99c8]" started-at="2024-05-08T12:31:15Z" name="tearDown" finished-at="2024-05-08T12:31:15Z" duration-ms="288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

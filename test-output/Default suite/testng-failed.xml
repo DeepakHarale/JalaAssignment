@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jala.qa.testcases.MultilpleTabsTest">
+      <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
         <methods>
-          <include name="getTitleOfMultileTabPage"/>
-          <include name="tearDown"/>
+          <include name="VarifyNewEmployeeDetailsCreation" invocation-numbers="2"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.jala.qa.testcases.MultilpleTabsTest -->
+      </class> <!-- com.jala.qa.testcases.CreateEmployeeDatailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

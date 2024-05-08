@@ -2,22 +2,26 @@ package com.jala.qa.testcases;
 
 import java.io.IOException;
 
+import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.jala.qa.base.TestBase;
 import com.jala.qa.pages.CreateEmployeePage;
 import com.jala.qa.pages.HomePage;
 import com.jala.qa.pages.LoginPage;
+import com.jala.qa.util.TestUtil;
 
 public class CreateEmployeeDatailsTest extends TestBase{
 	HomePage  homepage;
 	 LoginPage loginpage;
 	  CreateEmployeePage createwemployee;
-	
+	  String sheetname ="Sheet1";
+	  TestUtil utiltest;
 	public CreateEmployeeDatailsTest() throws IOException {
 		super();
 		 		
@@ -33,17 +37,23 @@ public class CreateEmployeeDatailsTest extends TestBase{
 		  
 	}
 	
-	
+	@DataProvider
+	public Object[][] testData() throws EncryptedDocumentException, IOException {
 
-	@Test(priority = 1)
-	public void VarifyNewEmployeeDetailsCreation() throws InterruptedException {
-		createwemployee.clickOnEmployee();
+		  Object data[][]= utiltest.getTestData(sheetname);
+		  return data;
+	}
+
+	@Test(priority = 1, dataProvider = "testData")
+	public void VarifyNewEmployeeDetailsCreation(String Fname, String Lname, String gmail, String Mnumber, String addresses) throws InterruptedException {
+		  utiltest = new TestUtil();
+		
+		  createwemployee.clickOnEmployee();
 		Assert.assertTrue(true,"click on employee tab not working");
-		Reporter.log("click on employee tab working successfully", true);
-		createwemployee.createNewEmployeeInfo();
-		Assert.assertTrue(true,"click on More tab not working");
-		Reporter.log("click on More tab working successfully", true);
-		Assert.assertTrue(true, "Employee dtails not created");
+		Reporter.log("click on employee tab and more tab working successfully", true);
+		
+		createwemployee.createNewEmployeeInfo(Fname,Lname, gmail, Mnumber,addresses);
+				Assert.assertTrue(true, "Employee dtails not created");
 		Reporter.log("Employee info successfully saved", true);
 	}
 	

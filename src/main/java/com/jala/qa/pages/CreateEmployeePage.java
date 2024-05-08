@@ -39,28 +39,15 @@ public class CreateEmployeePage extends TestBase {
 		
 	}
 	
-public void createNewEmployeeInfo() {
+public void createNewEmployeeInfo(String Fname, String Lname, String gmail, String Mnumber, String addresses) {
 		
-		firstname.sendKeys("tony");
-		lastname.sendKeys("pual");
-		emailID.sendKeys("tonypaul@gmai.com");
-		mobileNo.sendKeys("6178453245");
+		firstname.sendKeys(Fname);
+		lastname.sendKeys(Lname);
+		emailID.sendKeys(gmail);
+		mobileNo.sendKeys(Mnumber);
 		dateOfBirth.sendKeys("07/09/1998");
 		gender.isSelected();
-		address.sendKeys("Street:  Taille Maréchal 433\r\n"
-				+ "\r\n"
-				+ "City:  Froidmont\r\n"
-				+ "\r\n"
-				+ "State/province/area:   Hainaut\r\n"
-				+ "\r\n"
-				+ "Phone number:  0474 44 50 90\r\n"
-				+ "\r\n"
-				+ "Zip code:  7504\r\n"
-				+ "\r\n"
-				+ "Country calling code:  +32\r\n"
-				+ "\r\n"
-				+ "Country:  Belgium");
-		
+		address.sendKeys(addresses);
 		Select select = new Select(countryDropDown);
 		select.selectByIndex(5);
 		Skills.isSelected();
