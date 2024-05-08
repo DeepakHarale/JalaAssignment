@@ -1,11 +1,13 @@
 package com.jala.qa.util;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.InvalidPropertiesFormatException;
 import java.util.prefs.InvalidPreferencesFormatException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -13,6 +15,9 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
@@ -21,7 +26,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.jala.qa.base.TestBase;
 
 public class TestUtil  {
-	ChromeDriver driver;
+	static ChromeDriver driver;
 	static Workbook book;
 	static Sheet sheet;
 	public static String TESTDATA_SHEET_PATH= "C:\\Users\\Sarvadnya\\eclipse-workspace\\JalaAcadamyTest\\src\\main\\java\\com\\jala\\qa\\testdata\\EmployeeData.xlsx";
@@ -57,6 +62,16 @@ public class TestUtil  {
 			 }
 		 }
 		 return data;
+	}
+	
+//	############################################ TakeScreenShot ########################################
+
+
+	public static void takeScreenshotAtEndOfTest() throws WebDriverException, IOException {
+		
+		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		String currenmtDir = System.getProperty("user.dir");
+		FileUtils.copyFile(scrFile, new File(currenmtDir+"/screenshots"+System.currentTimeMillis()+".png"));
 	}
 	
 

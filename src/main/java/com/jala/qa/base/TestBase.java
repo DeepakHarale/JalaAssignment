@@ -10,13 +10,17 @@ import org.apache.commons.math3.geometry.spherical.twod.Edge;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.jala.qa.util.TestUtil;
+import com.jala.qa.util.WebEventListner;
 
 public class TestBase {
 public static ChromeDriver driver;
 public static FirefoxDriver driver1;
 public static Edge driver2;
+public static EventFiringWebDriver e_driver;
+public static WebEventListner eventlistner;
 
 public static Properties prop;
 
@@ -33,7 +37,7 @@ public static Properties prop;
 		}
 	}
 	
-	public static void Intialization() throws InterruptedException {
+	public static void Intialization() throws InterruptedException, IOException {
 		String browesername = prop.getProperty("browser");
 		
 		if(browesername.equals("chrome")) {
@@ -42,6 +46,12 @@ public static Properties prop;
 		else if(browesername.equals("firefox")) {
 			driver1 = new FirefoxDriver();
 		}
+		
+		e_driver = new EventFiringWebDriver(driver);
+		 eventlistner = new WebEventListner();
+		 e_driver.register(eventlistner);
+//		 driver = e_driver;
+		
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
