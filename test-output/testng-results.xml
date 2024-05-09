@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="11" passed="9" failed="1" skipped="1">
   <reporter-output>
+    <line>
+      <![CDATA[Multiple tab page title matched]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-05-09T08:59:29Z" name="Suite" finished-at="2024-05-09T09:00:37Z" duration-ms="68037">
+  <suite started-at="2024-05-09T11:27:42Z" name="RetryfailedTestsuit and ExtentRopert" finished-at="2024-05-09T11:28:41Z" duration-ms="59331">
     <groups>
     </groups>
-    <test started-at="2024-05-09T08:59:29Z" name="Extent Report Test" finished-at="2024-05-09T09:00:37Z" duration-ms="68037">
+    <test started-at="2024-05-09T11:27:42Z" name="Extent " finished-at="2024-05-09T11:28:41Z" duration-ms="59331">
       <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
-        <test-method signature="VarifyNewEmployeeDetailsCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@7e7be63f]" started-at="2024-05-09T14:29:52Z" name="VarifyNewEmployeeDetailsCreation" data-provider="testData" finished-at="2024-05-09T14:29:52Z" duration-ms="0" status="SKIP">
+        <test-method signature="VarifyNewEmployeeDetailsCreation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.jala.qa.testcases.CreateEmployeeDatailsTest@7e7be63f]" started-at="2024-05-09T16:58:00Z" name="VarifyNewEmployeeDetailsCreation" data-provider="testData" finished-at="2024-05-09T16:58:00Z" duration-ms="0" status="SKIP">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream]]>
@@ -64,85 +67,88 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
         </test-method> <!-- VarifyNewEmployeeDetailsCreation -->
       </class> <!-- com.jala.qa.testcases.CreateEmployeeDatailsTest -->
       <class name="com.jala.qa.testcases.MultilpleTabsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@6cd28fa7]" started-at="2024-05-09T14:29:29Z" name="setUp" finished-at="2024-05-09T14:29:39Z" duration-ms="10637" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@6cd28fa7]" started-at="2024-05-09T16:57:42Z" name="setUp" finished-at="2024-05-09T16:57:49Z" duration-ms="6520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getTitleOfMultileTabPage()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@6cd28fa7]" started-at="2024-05-09T14:29:39Z" name="getTitleOfMultileTabPage" finished-at="2024-05-09T14:29:39Z" duration-ms="28" status="PASS">
+        <test-method signature="getTitleOfMultileTabPage()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@6cd28fa7]" started-at="2024-05-09T16:57:49Z" name="getTitleOfMultileTabPage" finished-at="2024-05-09T16:57:49Z" duration-ms="36" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Multiple tab page title matched]]>
+            </line>
           </reporter-output>
         </test-method> <!-- getTitleOfMultileTabPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@6cd28fa7]" started-at="2024-05-09T14:29:39Z" name="tearDown" finished-at="2024-05-09T14:29:40Z" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.MultilpleTabsTest@6cd28fa7]" started-at="2024-05-09T16:57:49Z" name="tearDown" finished-at="2024-05-09T16:57:49Z" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.jala.qa.testcases.MultilpleTabsTest -->
       <class name="com.jala.qa.testcases.HomePgaeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:29:45Z" name="setUp" finished-at="2024-05-09T14:29:50Z" duration-ms="4648" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:57:53Z" name="setUp" finished-at="2024-05-09T16:57:57Z" duration-ms="3994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyTitleHomePage()[pri:1, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:29:50Z" name="VerifyTitleHomePage" finished-at="2024-05-09T14:29:52Z" duration-ms="2037" status="PASS">
+        <test-method signature="VerifyTitleHomePage()[pri:1, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:57:57Z" name="VerifyTitleHomePage" finished-at="2024-05-09T16:57:59Z" duration-ms="2029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTitleHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:29:52Z" name="tearDown" finished-at="2024-05-09T14:29:52Z" duration-ms="232" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:57:59Z" name="tearDown" finished-at="2024-05-09T16:58:00Z" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:29:56Z" name="setUp" finished-at="2024-05-09T14:30:00Z" duration-ms="4220" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:03Z" name="setUp" finished-at="2024-05-09T16:58:07Z" duration-ms="3710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyHomeVisibletext()[pri:2, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:00Z" name="verifyHomeVisibletext" finished-at="2024-05-09T14:30:01Z" duration-ms="677" status="PASS">
+        <test-method signature="verifyHomeVisibletext()[pri:2, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:07Z" name="verifyHomeVisibletext" finished-at="2024-05-09T16:58:08Z" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeVisibletext -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:01Z" name="tearDown" finished-at="2024-05-09T14:30:01Z" duration-ms="234" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:08Z" name="tearDown" finished-at="2024-05-09T16:58:08Z" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:06Z" name="setUp" finished-at="2024-05-09T14:30:10Z" duration-ms="4633" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:11Z" name="setUp" finished-at="2024-05-09T16:58:16Z" duration-ms="4084" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyUserId()[pri:3, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:10Z" name="VerifyUserId" finished-at="2024-05-09T14:30:11Z" duration-ms="657" status="PASS">
+        <test-method signature="VerifyUserId()[pri:3, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:16Z" name="VerifyUserId" finished-at="2024-05-09T16:58:16Z" duration-ms="533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyUserId -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:11Z" name="tearDown" finished-at="2024-05-09T14:30:11Z" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:16Z" name="tearDown" finished-at="2024-05-09T16:58:16Z" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:11Z" name="setUp" finished-at="2024-05-09T14:30:15Z" duration-ms="4397" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:16Z" name="setUp" finished-at="2024-05-09T16:58:20Z" duration-ms="3833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyHomepageTotalLiks()[pri:4, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:15Z" name="VerifyHomepageTotalLiks" finished-at="2024-05-09T14:30:15Z" duration-ms="56" status="PASS">
+        <test-method signature="VerifyHomepageTotalLiks()[pri:4, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:20Z" name="VerifyHomepageTotalLiks" finished-at="2024-05-09T16:58:20Z" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyHomepageTotalLiks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:15Z" name="tearDown" finished-at="2024-05-09T14:30:16Z" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:20Z" name="tearDown" finished-at="2024-05-09T16:58:21Z" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:16Z" name="setUp" finished-at="2024-05-09T14:30:20Z" duration-ms="4358" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:21Z" name="setUp" finished-at="2024-05-09T16:58:25Z" duration-ms="4146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VarifyClickOnEmployeeLink()[pri:5, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:20Z" name="VarifyClickOnEmployeeLink" finished-at="2024-05-09T14:30:21Z" duration-ms="1142" status="PASS">
+        <test-method signature="VarifyClickOnEmployeeLink()[pri:5, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:25Z" name="VarifyClickOnEmployeeLink" finished-at="2024-05-09T16:58:26Z" duration-ms="916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VarifyClickOnEmployeeLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:21Z" name="tearDown" finished-at="2024-05-09T14:30:21Z" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:26Z" name="tearDown" finished-at="2024-05-09T16:58:26Z" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:21Z" name="setUp" finished-at="2024-05-09T14:30:26Z" duration-ms="4309" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:26Z" name="setUp" finished-at="2024-05-09T16:58:30Z" duration-ms="4298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnMultiplePageTab()[pri:5, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:26Z" name="clickOnMultiplePageTab" finished-at="2024-05-09T14:30:36Z" duration-ms="10642" status="FAIL">
+        <test-method signature="clickOnMultiplePageTab()[pri:5, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:30Z" name="clickOnMultiplePageTab" finished-at="2024-05-09T16:58:41Z" duration-ms="10864" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -150,10 +156,10 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d70f41b6c413895f9accdef6daafcac, clickElement {id=f.1259E6A948AC92F0248A194369CA4471.d.82B53F7D356A4EF581EBB8A3C2A9FB3C.e.1060}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53113/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7d70f41b6c413895f9accdef6daafcac)] -> xpath: //a[text()=' Multiple Tabs']]
-Session ID: 7d70f41b6c413895f9accdef6daafcac]]>
+Command: [a629cd4ed384e8251ac3aed05ee930a4, clickElement {id=f.D8CEEB1650F0CFE921576F840677149D.d.A74BA3B4A589F99A23D5BFBFEB2AB9EA.e.1062}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55147}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55147/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a629cd4ed384e8251ac3aed05ee930a4)] -> xpath: //a[text()=' Multiple Tabs']]
+Session ID: a629cd4ed384e8251ac3aed05ee930a4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -161,10 +167,10 @@ Session ID: 7d70f41b6c413895f9accdef6daafcac]]>
 Build info: version: '4.11.0', revision: '040bc5406b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7d70f41b6c413895f9accdef6daafcac, clickElement {id=f.1259E6A948AC92F0248A194369CA4471.d.82B53F7D356A4EF581EBB8A3C2A9FB3C.e.1060}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53113}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53113/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (7d70f41b6c413895f9accdef6daafcac)] -> xpath: //a[text()=' Multiple Tabs']]
-Session ID: 7d70f41b6c413895f9accdef6daafcac
+Command: [a629cd4ed384e8251ac3aed05ee930a4, clickElement {id=f.D8CEEB1650F0CFE921576F840677149D.d.A74BA3B4A589F99A23D5BFBFEB2AB9EA.e.1062}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.155 (df4f029328b..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55147}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55147/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a629cd4ed384e8251ac3aed05ee930a4)] -> xpath: //a[text()=' Multiple Tabs']]
+Session ID: a629cd4ed384e8251ac3aed05ee930a4
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -218,49 +224,49 @@ Session ID: 7d70f41b6c413895f9accdef6daafcac
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnMultiplePageTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T14:30:36Z" name="tearDown" finished-at="2024-05-09T14:30:37Z" duration-ms="322" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.HomePgaeTest@614ca7df]" started-at="2024-05-09T16:58:41Z" name="tearDown" finished-at="2024-05-09T16:58:41Z" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.jala.qa.testcases.HomePgaeTest -->
       <class name="com.jala.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:29:40Z" name="setup" finished-at="2024-05-09T14:29:44Z" duration-ms="4521" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:57:49Z" name="setup" finished-at="2024-05-09T16:57:52Z" duration-ms="3538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintext()[pri:1, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:29:44Z" name="logintext" finished-at="2024-05-09T14:29:45Z" duration-ms="515" status="PASS">
+        <test-method signature="logintext()[pri:1, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:57:52Z" name="logintext" finished-at="2024-05-09T16:57:53Z" duration-ms="472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintext -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:29:45Z" name="tearDown" finished-at="2024-05-09T14:29:45Z" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:57:53Z" name="tearDown" finished-at="2024-05-09T16:57:53Z" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:29:52Z" name="setup" finished-at="2024-05-09T14:29:56Z" duration-ms="3825" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:58:00Z" name="setup" finished-at="2024-05-09T16:58:03Z" duration-ms="3341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageTitle()[pri:2, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:29:56Z" name="loginPageTitle" finished-at="2024-05-09T14:29:56Z" duration-ms="11" status="PASS">
+        <test-method signature="loginPageTitle()[pri:2, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:58:03Z" name="loginPageTitle" finished-at="2024-05-09T16:58:03Z" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:29:56Z" name="tearDown" finished-at="2024-05-09T14:29:56Z" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:58:03Z" name="tearDown" finished-at="2024-05-09T16:58:03Z" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:30:01Z" name="setup" finished-at="2024-05-09T14:30:05Z" duration-ms="3990" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:58:08Z" name="setup" finished-at="2024-05-09T16:58:11Z" duration-ms="3377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginPageVisibletext()[pri:3, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:30:05Z" name="loginPageVisibletext" finished-at="2024-05-09T14:30:05Z" duration-ms="49" status="PASS">
+        <test-method signature="loginPageVisibletext()[pri:3, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:58:11Z" name="loginPageVisibletext" finished-at="2024-05-09T16:58:11Z" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageVisibletext -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T14:30:05Z" name="tearDown" finished-at="2024-05-09T14:30:06Z" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LoginPageTest@5acf93bb]" started-at="2024-05-09T16:58:11Z" name="tearDown" finished-at="2024-05-09T16:58:11Z" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.jala.qa.testcases.LoginPageTest -->
-    </test> <!-- Extent Report Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Extent  -->
+  </suite> <!-- RetryfailedTestsuit and ExtentRopert -->
 </testng-results>

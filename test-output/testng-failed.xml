@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite name="Failed suite [RetryfailedTestsuit and ExtentRopert]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="com.qa.ExtendsReportListner.ExtentReportListner"/>
   </listeners>
-  <test name="Extent Report Test(failed)">
+  <test name="Extent (failed)">
     <classes>
       <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
         <methods>
@@ -21,5 +21,5 @@
         </methods>
       </class> <!-- com.jala.qa.testcases.HomePgaeTest -->
     </classes>
-  </test> <!-- Extent Report Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Extent (failed) -->
+</suite> <!-- Failed suite [RetryfailedTestsuit and ExtentRopert] -->
