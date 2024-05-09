@@ -14,7 +14,7 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.jala.qa.util.TestUtil;
 import com.jala.qa.util.WebEventListner;
-
+import org.apache.log4j.Logger;
 public class TestBase {
 public static ChromeDriver driver;
 public static FirefoxDriver driver1;
@@ -37,7 +37,9 @@ public static Properties prop;
 		}
 	}
 	
+	
 	public static void Intialization() throws InterruptedException, IOException {
+		
 		String browesername = prop.getProperty("browser");
 		
 		if(browesername.equals("chrome")) {
@@ -51,7 +53,7 @@ public static Properties prop;
 		 eventlistner = new WebEventListner();
 		 e_driver.register(eventlistner);
 //		 driver = e_driver;
-		
+		 
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
