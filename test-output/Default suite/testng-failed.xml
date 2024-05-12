@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jala.qa.testcases.LoginPageTest">
+      <class name="com.jala.qa.testcases.ImagePageTest">
         <methods>
-          <include name="loginPageVisibletext"/>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="logintext"/>
-          <include name="loginPageTitle"/>
+          <include name="setUp"/>
+          <include name="validateUploadImage"/>
         </methods>
-      </class> <!-- com.jala.qa.testcases.LoginPageTest -->
+      </class> <!-- com.jala.qa.testcases.ImagePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

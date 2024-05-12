@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [RetryfailedTestsuit and ExtentRopert]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="com.qa.ExtendsReportListner.ExtentReportListner"/>
-  </listeners>
-  <test name="Extent (failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.jala.qa.testcases.CreateEmployeeDatailsTest">
+      <class name="com.jala.qa.testcases.ImagePageTest">
         <methods>
-          <include name="VarifyNewEmployeeDetailsCreation"/>
-          <include name="setUp"/>
           <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.jala.qa.testcases.CreateEmployeeDatailsTest -->
-      <class name="com.jala.qa.testcases.HomePgaeTest">
-        <methods>
           <include name="setUp"/>
-          <include name="clickOnMultiplePageTab"/>
-          <include name="tearDown"/>
+          <include name="validateUploadImage"/>
         </methods>
-      </class> <!-- com.jala.qa.testcases.HomePgaeTest -->
+      </class> <!-- com.jala.qa.testcases.ImagePageTest -->
     </classes>
-  </test> <!-- Extent (failed) -->
-</suite> <!-- Failed suite [RetryfailedTestsuit and ExtentRopert] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -38,5 +38,29 @@ public class ManuPage extends TestBase {
 		
 		PageFactory.initElements(driver, this);
 	}
+	
+	public String getTitleofMenuPage() {
+		return	driver.getTitle();
+			
+		}
+	public void clickonTestingTab() {
+		tab1.click();
+		System.out.println("Visible text is ="+tab1.getText());
+		tab2.click();
+		System.out.println("Visible text is ="+tab2.getText());
+		tab3.click();
+		System.out.println("Visible text is ="+tab3.getText());
+	}
+		
+	public void clickOnSubMenu() {
+	
+		submenu.click();
+		subtab1.click();
+		System.out.println("Visible text is ="+subtab1.getText());
+		subtab2.click();
+		System.out.println("Visible text is ="+subtab2.getText());
+		subtab3.click();
+		System.out.println("Visible text is ="+subtab3.getText());
+	}
 
 }

@@ -108,9 +108,25 @@ public class HomePage extends TestBase {
 		return new ManuPage();
 	}
 	
-	public void autoComplte() {
+	public AutocompletePage autoComplte() throws IOException {
 		autocomlete.click();
+		
+		return new AutocompletePage();
 	}
 	
 	
+	public CollapsibleConentPage clickOnCollapsContentTab() throws IOException {
+		collapsibleconent.click();
+		return new CollapsibleConentPage();
+	}
+	
+	public ImagesPage clickOnimagesTab() throws IOException {
+		images.click();
+		return new ImagesPage();
+	}
+	
+	public SliderPage clickOnSliderTab() throws IOException {
+		slider.click();
+		return new SliderPage();
+	}
 }

@@ -18,9 +18,18 @@ public class AutocompletePage extends TestBase {
 	
 	@FindBy(name = "txtMultipleAutoComplete")
 	WebElement textmulticomplte;
+	
 	public AutocompletePage() throws IOException {
 		PageFactory.initElements(driver, this);
 		}
 	
+	public void singleValue() {
+		textsinglevalue.sendKeys("Jala Acadamy");
+				}
+	public void multipleValue() {
+		tab2.click();
+		textmulticomplte.sendKeys("Jala Acadamy");
+		
+				}
 
 }
