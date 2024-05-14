@@ -129,4 +129,16 @@ public class HomePage extends TestBase {
 		slider.click();
 		return new SliderPage();
 	}
+	
+	public TootltipsPage clickontooltipTab() throws IOException {
+		tooltips.click();
+		
+		return new TootltipsPage();
+	}
+	
+	public PopupsPage clickOnPopUp() throws IOException {
+		popups.click();
+	
+		return new PopupsPage();
+	}
 }

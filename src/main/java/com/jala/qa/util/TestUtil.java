@@ -35,7 +35,7 @@ public class TestUtil  {
 	public static long IMPICIT_WAIT =20;
 	
 	
-//	################################################## Created By 2D Array###########################################
+//	################################################## Created By  Array###########################################
 	
 	public static Object [][] getTestData(String sheetname) throws EncryptedDocumentException, IOException{
 		FileInputStream file = null; 
