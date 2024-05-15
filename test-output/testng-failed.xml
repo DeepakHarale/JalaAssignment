@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jala.qa.testcases.PopupPageTest">
+      <class name="com.jala.qa.testcases.LinksPageTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="validatePopUpThree"/>
-          <include name="validatePopUpTwo"/>
-          <include name="validatePopUpFour"/>
+          <include name="validatelinks"/>
         </methods>
-      </class> <!-- com.jala.qa.testcases.PopupPageTest -->
+      </class> <!-- com.jala.qa.testcases.LinksPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
