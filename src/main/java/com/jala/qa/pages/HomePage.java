@@ -146,4 +146,9 @@ public class HomePage extends TestBase {
 		links.click();
 		return new LinksPage();
 	}
+	
+	public iFramePage clickoniframe() throws IOException {
+		iframe.click();
+		return new iFramePage();
+	}
 }

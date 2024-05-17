@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jala.qa.testcases.LinksPageTest">
+      <class name="com.jala.qa.testcases.iFramePageTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="validatelinks"/>
+          <include name="ValidateiFrame2"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.jala.qa.testcases.LinksPageTest -->
+      </class> <!-- com.jala.qa.testcases.iFramePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

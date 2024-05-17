@@ -16,7 +16,7 @@ import com.jala.qa.util.TestUtil;
 import com.jala.qa.util.WebEventListner;
 import org.apache.log4j.Logger;
 public class TestBase {
-public static ChromeDriver driver;
+public static WebDriver driver;
 public static FirefoxDriver driver1;
 public static Edge driver2;
 public static EventFiringWebDriver e_driver;
@@ -46,7 +46,7 @@ public static Properties prop;
 			driver = new ChromeDriver();
 		}
 		else if(browesername.equals("firefox")) {
-			driver1 = new FirefoxDriver();
+			driver = new FirefoxDriver();
 		}
 		
 		e_driver = new EventFiringWebDriver(driver);

@@ -2,50 +2,48 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-15T15:38:10Z" name="Default suite" finished-at="2024-05-15T15:38:28Z" duration-ms="18705">
+  <suite started-at="2024-05-17T11:57:22Z" name="Default suite" finished-at="2024-05-17T11:58:05Z" duration-ms="42905">
     <groups>
     </groups>
-    <test started-at="2024-05-15T15:38:10Z" name="Default test" finished-at="2024-05-15T15:38:28Z" duration-ms="18705">
-      <class name="com.jala.qa.testcases.LinksPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.LinksPageTest@77102b91]" started-at="2024-05-15T21:08:10Z" name="setUp" finished-at="2024-05-15T21:08:17Z" duration-ms="7633" status="PASS">
+    <test started-at="2024-05-17T11:57:22Z" name="Default test" finished-at="2024-05-17T11:58:05Z" duration-ms="42905">
+      <class name="com.jala.qa.testcases.iFramePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.iFramePageTest@77102b91]" started-at="2024-05-17T17:27:22Z" name="setUp" finished-at="2024-05-17T17:27:28Z" duration-ms="6218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateWorkingLinks()[pri:1, instance:com.jala.qa.testcases.LinksPageTest@77102b91]" started-at="2024-05-15T21:08:17Z" name="validateWorkingLinks" finished-at="2024-05-15T21:08:20Z" duration-ms="2637" status="PASS">
+        <test-method signature="ValidateiFrame1()[pri:1, instance:com.jala.qa.testcases.iFramePageTest@77102b91]" started-at="2024-05-17T17:27:28Z" name="ValidateiFrame1" finished-at="2024-05-17T17:27:28Z" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateWorkingLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LinksPageTest@77102b91]" started-at="2024-05-15T21:08:20Z" name="tearDown" finished-at="2024-05-15T21:08:20Z" duration-ms="356" status="PASS">
+        </test-method> <!-- ValidateiFrame1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.iFramePageTest@77102b91]" started-at="2024-05-17T17:27:28Z" name="tearDown" finished-at="2024-05-17T17:27:28Z" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.LinksPageTest@77102b91]" started-at="2024-05-15T21:08:20Z" name="setUp" finished-at="2024-05-15T21:08:27Z" duration-ms="7077" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.iFramePageTest@77102b91]" started-at="2024-05-17T17:27:28Z" name="setUp" finished-at="2024-05-17T17:27:34Z" duration-ms="5673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validatelinks()[pri:2, instance:com.jala.qa.testcases.LinksPageTest@77102b91]" started-at="2024-05-15T21:08:27Z" name="validatelinks" finished-at="2024-05-15T21:08:28Z" duration-ms="745" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method signature="ValidateiFrame2()[pri:2, instance:com.jala.qa.testcases.iFramePageTest@77102b91]" started-at="2024-05-17T17:27:34Z" name="ValidateiFrame2" finished-at="2024-05-17T17:28:04Z" duration-ms="30377" status="FAIL">
+          <exception class="org.openqa.selenium.ScriptTimeoutException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.203)
+              <![CDATA[script timeout
+  (Session info: chrome=125.0.6422.61)
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8139332cdb5035fa749b24e9a06a727, goBack {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.203, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63529/devtoo..., se:cdpVersion: 124.0.6367.203, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8139332cdb5035fa749b24e9a06a727]]>
+Command: [e63db97e5cca2e25ffe2d0368694569f, executeAsyncScript {script=window.scrollBy(0,500), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.61, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65282/devtoo..., se:cdpVersion: 125.0.6422.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e63db97e5cca2e25ffe2d0368694569f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=124.0.6367.203)
+              <![CDATA[org.openqa.selenium.ScriptTimeoutException: script timeout
+  (Session info: chrome=125.0.6422.61)
 Build info: version: '4.16.1', revision: '9b4c83354e'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d8139332cdb5035fa749b24e9a06a727, goBack {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.203, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63529/devtoo..., se:cdpVersion: 124.0.6367.203, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d8139332cdb5035fa749b24e9a06a727
+Command: [e63db97e5cca2e25ffe2d0368694569f, executeAsyncScript {script=window.scrollBy(0,500), args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.61, chrome: {chromedriverVersion: 125.0.6422.60 (3ac3319bff9f..., userDataDir: C:\Users\SARVAD~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65282}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65282/devtoo..., se:cdpVersion: 125.0.6422.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e63db97e5cca2e25ffe2d0368694569f
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -58,11 +56,9 @@ Session ID: d8139332cdb5035fa749b24e9a06a727
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:1058)
-	at com.jala.qa.pages.LinksPage.clickOnLinks(LinksPage.java:68)
-	at com.jala.qa.testcases.LinksPageTest.validatelinks(LinksPageTest.java:47)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeAsyncScript(RemoteWebDriver.java:476)
+	at com.jala.qa.pages.iFramePage.checkiframe2(iFramePage.java:43)
+	at com.jala.qa.testcases.iFramePageTest.ValidateiFrame2(iFramePageTest.java:43)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -90,15 +86,15 @@ Session ID: d8139332cdb5035fa749b24e9a06a727
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.ScriptTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validatelinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.LinksPageTest@77102b91]" started-at="2024-05-15T21:08:28Z" name="tearDown" finished-at="2024-05-15T21:08:28Z" duration-ms="231" status="PASS">
+        </test-method> <!-- ValidateiFrame2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.iFramePageTest@77102b91]" started-at="2024-05-17T17:28:04Z" name="tearDown" finished-at="2024-05-17T17:28:05Z" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.jala.qa.testcases.LinksPageTest -->
+      </class> <!-- com.jala.qa.testcases.iFramePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
