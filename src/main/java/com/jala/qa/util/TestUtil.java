@@ -32,7 +32,7 @@ public class TestUtil  {
 	public static String TESTDATA_SHEET_PATH= "C:\\Users\\Sarvadnya\\eclipse-workspace\\JalaAcadamyTest\\src\\main\\java\\com\\jala\\qa\\testdata\\EmployeeData.xlsx";
 	String sheetname = "Sheet1";
 	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPICIT_WAIT =30;
+	public static long IMPICIT_WAIT =60;
 	
 	
 //	################################################## Created By  Array###########################################

@@ -22,7 +22,7 @@ public class SliderPage extends TestBase{
 		action = new Actions(driver);
         action.clickAndHold(slider);
 //		action.moveToElement(slider, 50, 0).perform();
-        action.moveByOffset(200, 150);
+        action.moveByOffset(600, 150);
         action.build().perform();
 	}
 	
