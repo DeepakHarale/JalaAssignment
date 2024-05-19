@@ -21,8 +21,9 @@ public class ImagePageTest extends TestBase {
 	ImagesPage imagepage;
 	public ImagePageTest() throws IOException {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
+	
 	
 	@BeforeMethod
 	public void setUp() throws InterruptedException, IOException {

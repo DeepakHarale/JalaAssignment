@@ -23,7 +23,7 @@ public class LinksPageTest extends TestBase {
 		super();
 			}
 
-
+	
 	@BeforeMethod
 	public void setUp() throws InterruptedException, IOException {
 		 Intialization();

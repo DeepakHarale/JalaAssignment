@@ -25,7 +25,6 @@ public class CreateEmployeeDatailsTest extends TestBase {
 
 	public CreateEmployeeDatailsTest() throws IOException {
 		super();
-
 	}
 
 	@BeforeMethod

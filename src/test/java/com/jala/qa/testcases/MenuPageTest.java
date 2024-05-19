@@ -26,9 +26,10 @@ public class MenuPageTest extends TestBase {
 	
 	public MenuPageTest() throws IOException {
 		super();
-		// TODO Auto-generated constructor stub
+	
 	}
 
+	
 	
 	@BeforeMethod
 	public void setUp() throws InterruptedException, IOException {

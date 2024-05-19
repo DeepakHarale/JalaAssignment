@@ -23,7 +23,7 @@ public class TooltipsPageTest extends TestBase {
 	TootltipsPage tooltipsPage;
 	public TooltipsPageTest() throws IOException {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	@BeforeMethod
@@ -34,8 +34,7 @@ public class TooltipsPageTest extends TestBase {
 		 	homepage.clickOnMoreTab();
 			homepage.clickontooltipTab();
 			 tooltipsPage = new TootltipsPage();
-			 
-			}
+						}
 	@Test
 	public void validateSliderMover() {
 		tooltipsPage.clickOnTooltipsButton();
@@ -50,4 +49,5 @@ public class TooltipsPageTest extends TestBase {
 		driver.quit();
 			
 	}
+	
 }

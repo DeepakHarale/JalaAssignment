@@ -20,8 +20,9 @@ public class LoginPageTest extends TestBase{
 	LoginPage loginpage;
 	public LoginPageTest() throws IOException {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
+	
 	
 	static Logger log = Logger.getLogger(LoginPageTest.class);
 	@BeforeMethod

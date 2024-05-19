@@ -84,6 +84,7 @@ public class PopupPageTest extends TestBase {
 		popup1.clickOnPromptBtn();
 	}
 	
+	
 	@AfterMethod
 	public void tearDown() throws InterruptedException {
 		

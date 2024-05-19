@@ -25,7 +25,8 @@ public class CollapsConenetTest extends TestBase {
 	
 	public CollapsConenetTest() throws IOException {
 		super();
-		// TODO Auto-generated constructor stub
+		
+		
 	}
 	
 	@BeforeMethod

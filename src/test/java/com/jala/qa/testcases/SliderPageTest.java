@@ -38,7 +38,7 @@ public class SliderPageTest extends TestBase {
 			 
 			}
 	
-	
+		
 	@Test
 	public void validateSliderMover() {
 		sliderpage.slider();
