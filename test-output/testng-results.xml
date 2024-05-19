@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Slider moved successfully]]>
+      <![CDATA[Slider moved smoothly.]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-19T17:10:47Z" name="Default suite" finished-at="2024-05-19T17:10:58Z" duration-ms="10794">
+  <suite started-at="2024-05-19T18:58:34Z" name="Default suite" finished-at="2024-05-19T18:58:47Z" duration-ms="12921">
     <groups>
     </groups>
-    <test started-at="2024-05-19T17:10:47Z" name="Default test" finished-at="2024-05-19T17:10:58Z" duration-ms="10794">
+    <test started-at="2024-05-19T18:58:34Z" name="Default test" finished-at="2024-05-19T18:58:47Z" duration-ms="12921">
       <class name="com.jala.qa.testcases.SliderPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.SliderPageTest@2ef14fe]" started-at="2024-05-19T22:40:47Z" name="setUp" finished-at="2024-05-19T22:40:57Z" duration-ms="9946" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.jala.qa.testcases.SliderPageTest@2ef14fe]" started-at="2024-05-20T00:28:34Z" name="setUp" finished-at="2024-05-20T00:28:45Z" duration-ms="11143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateSliderMover()[pri:0, instance:com.jala.qa.testcases.SliderPageTest@2ef14fe]" started-at="2024-05-19T22:40:57Z" name="validateSliderMover" finished-at="2024-05-19T22:40:58Z" duration-ms="511" status="PASS">
+        <test-method signature="validateSliderMover()[pri:0, instance:com.jala.qa.testcases.SliderPageTest@2ef14fe]" started-at="2024-05-20T00:28:45Z" name="validateSliderMover" finished-at="2024-05-20T00:28:46Z" duration-ms="1181" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Slider moved successfully]]>
+              <![CDATA[Slider moved smoothly.]]>
             </line>
           </reporter-output>
         </test-method> <!-- validateSliderMover -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.SliderPageTest@2ef14fe]" started-at="2024-05-19T22:40:58Z" name="tearDown" finished-at="2024-05-19T22:40:58Z" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.jala.qa.testcases.SliderPageTest@2ef14fe]" started-at="2024-05-20T00:28:46Z" name="tearDown" finished-at="2024-05-20T00:28:47Z" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
