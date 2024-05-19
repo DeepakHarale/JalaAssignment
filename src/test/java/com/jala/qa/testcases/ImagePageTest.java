@@ -23,8 +23,7 @@ public class ImagePageTest extends TestBase {
 		super();
 		
 	}
-	
-	
+		
 	@BeforeMethod
 	public void setUp() throws InterruptedException, IOException {
 		Intialization();

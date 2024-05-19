@@ -37,9 +37,7 @@ public class ExtentReportListner implements IReporter{
 			String outputDirectory) {
 		extent = new com.relevantcodes.extentreports.ExtentReports(outputDirectory + File.separator
 				+ "Extent.html", true);
-				
-
-		for (ISuite suite : suites) {
+						for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
 
 			for (ISuiteResult r : result.values()) {

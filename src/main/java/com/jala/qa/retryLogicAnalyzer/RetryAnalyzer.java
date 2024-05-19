@@ -13,6 +13,7 @@ public class RetryAnalyzer implements IRetryAnalyzer {
 			counter++;
 			return true;
 		}
+		
 	return false;	
 	}
 	

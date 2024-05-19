@@ -33,8 +33,7 @@ public class TestUtil  {
 	String sheetname = "Sheet1";
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPICIT_WAIT =60;
-	
-	
+		
 //	################################################## Created By  Array###########################################
 	
 	public static Object [][] getTestData(String sheetname) throws EncryptedDocumentException, IOException{

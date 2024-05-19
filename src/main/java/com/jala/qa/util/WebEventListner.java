@@ -10,7 +10,6 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 
 import com.jala.qa.base.TestBase;
 
-
 /*************************************** PURPOSE **********************************
 
 - This class implements the WebDriverEventListener, which is included under events.
