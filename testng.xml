@@ -9,6 +9,8 @@
 </listeners>
   <test name="Extent ">
     <classes>
+		
+		
 		<!--<class name="com.qa.ExtendsReportListner.ExtentReportListner"/> -->
        <class name="com.jala.qa.testcases.LoginPageTest"/>
         <class name="com.jala.qa.testcases.HomePgaeTest"/> 

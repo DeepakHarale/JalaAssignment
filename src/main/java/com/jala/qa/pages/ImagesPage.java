@@ -21,6 +21,8 @@ public class ImagesPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
+	
+	
 	public void upoladImage() {
 		chooseimage.sendKeys("C:\\Users\\Sarvadnya\\eclipse-workspace\\JalaAcadamyTest\\src\\main\\java\\com\\jala\\qa\\testdata\\Image.jpg");
 		uploadimage.click();

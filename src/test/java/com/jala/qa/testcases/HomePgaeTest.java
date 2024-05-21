@@ -66,6 +66,7 @@ public class HomePgaeTest extends TestBase {
 		Assert.assertTrue(true, "Not able to click on Multiple Tab option");
 	}
 
+	
 	@AfterMethod (timeOut = 3000)
 	public void tearDown(){
 		

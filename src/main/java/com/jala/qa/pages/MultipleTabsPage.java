@@ -20,6 +20,8 @@ public class MultipleTabsPage extends TestBase {
 	@FindBy(id = "textbox2")
 	WebElement inputfield2;
 	
+	
+	
 	@FindBy(xpath = "//a[text()='UnLearning']")
 	WebElement tab2;
 	@FindBy(id = "textbox3")

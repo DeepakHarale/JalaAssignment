@@ -53,4 +53,5 @@ public class SliderPageTest extends TestBase {
 		driver.quit();
 			
 	}
+	
 }

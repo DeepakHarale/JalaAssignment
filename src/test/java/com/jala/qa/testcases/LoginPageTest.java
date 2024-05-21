@@ -24,6 +24,7 @@ public class LoginPageTest extends TestBase{
 	}
 	
 	
+	
 	static Logger log = Logger.getLogger(LoginPageTest.class);
 	@BeforeMethod
 	public void setup() throws IOException, InterruptedException {

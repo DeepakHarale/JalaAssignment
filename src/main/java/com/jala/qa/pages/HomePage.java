@@ -142,6 +142,8 @@ public class HomePage extends TestBase {
 		return new PopupsPage();
 	}
 	
+	
+	
 	public LinksPage clickOnLinks() throws IOException {
 		links.click();
 		return new LinksPage();

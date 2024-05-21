@@ -23,6 +23,7 @@ public class AutocompletePage extends TestBase {
 		PageFactory.initElements(driver, this);
 		}
 	
+	
 	public void singleValue() {
 		textsinglevalue.sendKeys("Jala Acadamy");
 				}

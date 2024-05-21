@@ -25,6 +25,9 @@ public class LinksPage extends TestBase {
 	@FindBy(xpath = "//*[@id=\"tab_1\"]/div/a[1]")
 	WebElement link1;
 	
+	
+	
+	
 	@FindBy(xpath = "//*[@id=\"tab_1\"]/div/a[2]")
 	WebElement link2;
 	

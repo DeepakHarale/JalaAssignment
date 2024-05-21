@@ -40,9 +40,9 @@ public class ExtentReportListner implements IReporter{
 						for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
 
+			
 			for (ISuiteResult r : result.values()) {
 				ITestContext context = r.getTestContext();
-
 				buildTestNodes(context.getPassedTests(), LogStatus.PASS);
 				buildTestNodes(context.getFailedTests(), LogStatus.FAIL);
 				buildTestNodes(context.getSkippedTests(), LogStatus.SKIP);

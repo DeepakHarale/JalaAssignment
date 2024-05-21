@@ -37,8 +37,6 @@ public static Properties prop;
 		}
 	}
 	
-	
-	
 	public static void Intialization() throws InterruptedException, IOException {
 		
 		String browesername = prop.getProperty("browser");

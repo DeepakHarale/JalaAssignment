@@ -18,6 +18,9 @@ public class TootltipsPage extends TestBase{
 	
 	public void clickOnTooltipsButton() {
 		clicktooltips.click();
+	
+	
+		
 	}
 
 }

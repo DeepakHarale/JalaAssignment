@@ -24,6 +24,8 @@ public class SliderPage extends TestBase{
 //		action.moveToElement(slider, 50, 0).perform();
         action.moveByOffset(600, 150);
         action.build().perform();
+        
+        
 	}
 	
 	

@@ -41,8 +41,8 @@ public void checkiframe2() throws InterruptedException {
 		 toggle.click(); 
 //			JavascriptExecutor  js = (JavascriptExecutor)driver;
 //			js.executeAsyncScript("window.scrollBy(0,500)");	
-		
-	}
+			}
 	
 	
+
 }

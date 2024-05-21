@@ -11,7 +11,6 @@ import com.jala.qa.base.TestBase;
 public class CollapsibleConentPage extends TestBase{
 
 	
-
 	@FindBy(xpath = "//*[@id=\"headingOne\"]/h4/a")
 	WebElement siglecollaps1;
 	

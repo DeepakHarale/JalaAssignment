@@ -27,6 +27,7 @@ public class CollapsConenetTest extends TestBase {
 		super();
 		
 		
+		
 	}
 	
 	@BeforeMethod

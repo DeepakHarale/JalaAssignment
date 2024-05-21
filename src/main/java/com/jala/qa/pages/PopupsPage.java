@@ -159,9 +159,9 @@ public void clickOnPopUpFive() throws InterruptedException{
 	String child = it.next();
 	Thread.sleep(1000);
 	driver.switchTo().window(child);
-
 	System.out.println(driver.getTitle());
 	driver.close();
+	
 	
 	driver.switchTo().window(mainpage);
 	Thread.sleep(1000);

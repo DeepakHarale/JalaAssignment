@@ -18,8 +18,8 @@ which would be displayed/logged as the application under test is being run.
 
 Do not call any of these methods, instead these methods will be invoked automatically
 as an when the action done (click, findBy etc). 
-
 */
+
 
 public class WebEventListner extends TestBase implements WebDriverEventListener {
 
